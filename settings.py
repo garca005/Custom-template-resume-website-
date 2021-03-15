@@ -9,11 +9,12 @@ https://docs.djangoproject.com/en/3.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
+# imported variables for later use in the directory and other settings.
 import os
 import django_heroku
 from decouple import config
 import dj_database_url
-
+# imports are added for the heroku framework but they can be removed if the user just wants to run a resume localy 
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
